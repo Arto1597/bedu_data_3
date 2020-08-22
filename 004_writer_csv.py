@@ -32,7 +32,7 @@ with open(FILENAME, mode= "w") as csv_file:
 # CONSTANT
 FILENAME = 'writing_csv.csv'
 COLUMN_NAMES = ['employee_id', 'entered_at', 'enter_for']
-MAX_NUMBER_LOGS = 100
+MAX_NUMBER_LOGS = 10000
 # FUNCTION
 def fake_enter_for():
     enter_for_list = ['suppliement', 'reports', 'meeting', 'payment', 'bathroom', 'call', 'lunch']
